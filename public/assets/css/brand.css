@@ -1145,6 +1145,30 @@ ul {
     margin-top: 0.2rem;
 }
 
+.result-warning {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: flex-start;
+    background: #FFF8ED;
+    border: 1.5px solid #FFD580;
+    border-radius: var(--radius-sm);
+    margin: var(--space-md) var(--space-md) 0;
+    padding: var(--space-sm) var(--space-md);
+}
+
+.result-warning svg {
+    flex-shrink: 0;
+    color: #CC8800;
+    margin-top: 0.1rem;
+}
+
+.result-warning p {
+    font-size: 0.9rem;
+    color: #7A5000;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
 .result-insight {
     display: flex;
     gap: var(--space-sm);
