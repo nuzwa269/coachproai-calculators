@@ -1516,3 +1516,39 @@ details[open] > .faq-question::after {
         padding: 0 var(--space-sm) var(--space-sm);
     }
 }
+
+/* ------------------------------------------------------------
+   28. Fat Loss Timeline Calculator – Additional Styles
+   ------------------------------------------------------------ */
+
+/* Realism note box (displayed when total loss > 20 kg) */
+.realism-note {
+    display: flex;
+    gap: var(--space-sm);
+    align-items: flex-start;
+    background: #FFF8ED;
+    border: 1.5px solid #FFD580;
+    border-radius: var(--radius-sm);
+    margin: var(--space-md) var(--space-md) 0;
+    padding: var(--space-sm) var(--space-md);
+}
+
+.realism-note svg {
+    flex-shrink: 0;
+    color: #CC8800;
+    margin-top: 0.1rem;
+}
+
+.realism-note p {
+    font-size: 0.9rem;
+    color: #7A5000;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+/* Subtle helper text on form labels */
+.form-label-hint {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--color-muted);
+}
