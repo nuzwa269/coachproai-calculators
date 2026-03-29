@@ -52,7 +52,7 @@ if ($posted) {
     $heightUnit   = isset($_POST['height_unit'])  ? trim($_POST['height_unit'])  : 'cm';
     $heightCm     = isset($_POST['height_cm'])    ? trim($_POST['height_cm'])    : '';
     $heightFt     = isset($_POST['height_ft'])    ? trim($_POST['height_ft'])    : '';
-    $heightIn     = isset($_POST['height_in'])    ? trim($_POST['height_in'])    : '0';
+    $heightIn     = isset($_POST['height_in'])    ? trim($_POST['height_in'])    : '';
     $activity     = isset($_POST['activity'])     ? trim($_POST['activity'])     : '';
 
     // Validate sex
@@ -155,7 +155,7 @@ function postSelected(string $key, string $value): string {
     {
         "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": "Protein Calculator for Fat Loss (Accurate &amp; Free) | CoachProAI",
+        "name": "Protein Calculator for Fat Loss (Accurate & Free) | CoachProAI",
         "description": "Calculate how much protein you need to lose fat based on your weight, goal, and activity level. Free accurate protein calculator with smart coaching insights.",
         "url": "https://calculators.coachproai.com/protein-calculator-for-fat-loss.php",
         "publisher": {
@@ -379,7 +379,7 @@ function postSelected(string $key, string $value): string {
                                         <div>
                                             <input type="number" name="height_in" id="height_in" class="form-input"
                                                    placeholder="in" min="0" max="11" step="0.5"
-                                                   value="<?php echo postVal('height_in', '7'); ?>">
+                                                   value="<?php echo postVal('height_in', '0'); ?>">
                                             <span class="height-unit-label">in</span>
                                         </div>
                                     </div>

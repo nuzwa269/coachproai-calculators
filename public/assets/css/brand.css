@@ -1483,10 +1483,6 @@ details[open] > .faq-question::after {
         font-size: 1.75rem;
     }
 
-    .height-imperial-inputs {
-        grid-template-columns: 1fr 1fr;
-    }
-
     .faq-question {
         font-size: 0.875rem;
         padding: 0.9rem var(--space-sm);
